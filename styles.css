@@ -1,0 +1,37 @@
+/* Globálny štýl pre celé telo stránky */
+body {
+    font-family: Arial, sans-serif; /* Typ písma */
+    background-color: #f0f0f0; /* Farba pozadia */
+    color: #333; /* Farba textu */
+    margin: 0;
+    padding: 20px;
+    text-align: center; /* Zarovnanie textu */
+}
+
+/* Štýl pre hlavný nadpis */
+h1 {
+    font-size: 2em; /* Veľkosť písma */
+    color: #333; /* Farba textu */
+    margin-bottom: 20px; /* Spodný okraj */
+}
+
+/* Štýl pre odkazy */
+a {
+    color: #1e90ff; /* Farba odkazu */
+    text-decoration: none; /* Bez podčiarknutia */
+}
+
+a:hover {
+    text-decoration: underline; /* Podčiarknutie pri najetí myšou */
+}
+
+/* Štýl pre zoznam */
+ul {
+    list-style-type: none; /* Bez odrážok */
+    padding: 0;
+}
+
+/* Štýl pre položky zoznamu */
+li {
+    margin-bottom: 10px; /* Spodný okraj medzi položkami */
+}
